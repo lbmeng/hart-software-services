@@ -37,8 +37,8 @@ typedef struct HLS_DATA_
 /*------------------------------------------------------------------------------
  * Symbols from the linker script used to locate the text, data and bss sections.
  */
-extern unsigned long __stack_top_h1$;
-extern unsigned long __stack_bottom_h1$;
+extern unsigned char __stack_top_h1$[];
+extern unsigned char __stack_bottom_h1$[];
 
 extern unsigned long __data_load;
 extern unsigned long __data_start;
